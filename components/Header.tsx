@@ -13,29 +13,29 @@ export default function Header({
       <Link href="/dream" className="flex space-x-2">
         <Image
           alt="header text"
-          src="/bed.svg"
-          className="sm:w-10 sm:h-10 w-9 h-9"
-          width={24}
+          src="/Jinni_logo.png"
+          // className="sm:w-10 sm:h-10 w-9 h-9"
+          width={100}
           height={24}
         />
-        <h1 className="sm:text-3xl text-xl font-bold ml-2 tracking-tight">
+        {/* <h1 className="sm:text-3xl text-xl font-bold ml-2 tracking-tight">
           roomGPT.io
-        </h1>
+        </h1> */}
       </Link>
       {email ? (
         <div className="flex items-center space-x-4">
           <Link
             href="/dashboard"
-            className="border-r border-gray-300 pr-4 flex space-x-2 hover:text-blue-400 transition"
+            className="border-r border-gray-300 pr-4 flex space-x-2 hover:text-green-400 transition"
           >
             <div>Dashboard</div>
           </Link>
           <Link
             href="/buy-credits"
-            className="border-r border-gray-300 pr-4 flex space-x-2 hover:text-blue-400 transition"
+            className="border-r border-gray-300 pr-4 flex space-x-2 hover:text-green-400 transition"
           >
             <div>Buy Credits</div>
-            <div className="text-blue-500 bg-blue-200 rounded-full px-2 text-xs flex justify-center items-center font-bold">
+            <div className="text-green-500 bg-blue-200 rounded-full px-2 text-xs flex justify-center items-center font-bold">
               New
             </div>
           </Link>
@@ -53,7 +53,7 @@ export default function Header({
         </div>
       ) : (
         <Link
-          className="flex max-w-fit items-center justify-center space-x-2 rounded-lg border border-blue-600 text-white px-5 py-2 text-sm shadow-md hover:bg-blue-400 bg-blue-600 font-medium transition"
+          className="flex max-w-fit items-center justify-center space-x-2 rounded-lg border border-green-600 text-white px-5 py-2 text-sm shadow-md hover:bg-green-400 bg-green-600 font-medium transition"
           href="/dream"
         >
           <p>Sign Up </p>

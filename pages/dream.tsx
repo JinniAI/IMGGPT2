@@ -126,7 +126,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>RoomGPT</title>
+        <title>Jinni IMG</title>
       </Head>
       <Header
         photo={session?.user?.image || undefined}
@@ -143,7 +143,7 @@ const Home: NextPage = () => {
             buy credits!
           </Link>
         ) : (
-          <a
+          <a hidden
             href="https://twitter.com/nutlope/status/1635674124738523139?cxt=HHwWhsCz1ei8irMtAAAA"
             target="_blank"
             rel="noopener noreferrer"
@@ -155,7 +155,7 @@ const Home: NextPage = () => {
           </a>
         )}
         <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
-          Generate your <span className="text-blue-600">dream</span> room
+          Generate your <span className="text-green-600">dream</span> space
         </h1>
         {status === "authenticated" && data && !restoredImage && (
           <p className="text-gray-400">
