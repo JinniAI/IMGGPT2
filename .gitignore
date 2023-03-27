@@ -39,3 +39,6 @@ next-env.d.ts
 
 # Scripts
 getUsersEmails.ts
+
+# Local Netlify folder
+.netlify
