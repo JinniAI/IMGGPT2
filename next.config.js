@@ -2,7 +2,13 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["upcdn.io", "replicate.delivery", "lh3.googleusercontent.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+    domains: ["upcdn.io", "replicate.delivery", "lh3.googleusercontent.com","jinnispaces.netlify.app"],
   },
   async redirects() {
     return [
