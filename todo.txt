@@ -8,3 +8,4 @@ https://paulonteri.com/thoughts/how-to/deploy-nextjs-to-netlify-manually
 
 https://console.neon.tech/app/projects/shy-lab-558072
 
+// "build": "prisma generate && prisma migrate deploy && next build",
