@@ -26,12 +26,21 @@ const Home: NextPage = () => {
           <span className="text-green-600">Vercel</span>
         </a>
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-slate-600 sm:text-7xl">
-          AI Generated images for{" "}
+        AI-Powered Excellence in {" "}
           <span className="relative whitespace-nowrap text-green-600">
             <SquigglyLines />
-            <span className="relative">RealEstate</span>
-          </span>{" "}
-        </h1>
+            <span className="relative">Luxury</span>
+          </span>{" "} Real Estate Visuals
+        </h1>        
+        
+        {/* <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-slate-600 sm:text-7xl">
+          AI Generated {" "}
+          <span className="relative whitespace-nowrap text-green-600">
+            <SquigglyLines />
+            <span className="relative">Luxury</span>
+          </span>{" "} Images for Real Estate
+        </h1> */}
+
         <h2 hidden className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
           Take a picture of your room and see how your room looks in different
           themes. Remodel your room today.
@@ -40,7 +49,7 @@ const Home: NextPage = () => {
           className="bg-green-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-greeb-500 transition"
           href="/dream"
         >
-          Generate your dream Space
+          Try it Now for Free
         </Link>
         <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
           <div className="flex flex-col space-y-10 mt-4 mb-16">
