@@ -2,7 +2,7 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
-    let description = "Generate your dream room in seconds.";
+    let description = "Revamp Luxury Real Estates in seconds.";
     let ogimage = "/favicon.png";
     let sitename = "AI Luxury Revamped";
     let title = "AI Luxury Estate Revamp";
