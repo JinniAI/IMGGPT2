@@ -13,7 +13,7 @@ export function RoomGeneration({
         <div>
           <h3 className="mb-1 font-medium text-lg">Original</h3>
           <Image
-            alt="Original room"
+            alt="before"
             src={original}
             className="rounded-2xl h-full"
             width={400}
@@ -23,7 +23,7 @@ export function RoomGeneration({
         <div className="sm:mt-0 mt-8">
           <h3 className="mb-1 font-medium text-lg">Generated</h3>
           <Image
-            alt="Generated room"
+            alt="after"
             width={400}
             height={400}
             src={generated}
